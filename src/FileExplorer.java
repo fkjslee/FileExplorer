@@ -294,7 +294,7 @@ public class FileExplorer {
             progressBar.setVisible(false);
 
             gui.add(simpleOutput, BorderLayout.SOUTH);
-
+            
         }
         return gui;
     }

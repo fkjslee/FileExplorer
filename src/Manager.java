@@ -37,7 +37,7 @@ public class Manager {
     
         JTable table = gui.getTable();
         /*
-          打开操作, 左键下的时候响应
+          打开操作, 左键按下的时候响应
          */
         ListSelectionListener listSelectionListener = lse -> {
             if(!lse.getValueIsAdjusting()) {
